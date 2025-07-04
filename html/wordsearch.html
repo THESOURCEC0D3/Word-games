@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordsearch</title>
+    <link rel="stylesheet" href="../css/wordsearch.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Word Search Game</h1>
+    <button><a href="index.html">← Back to Home</a></button><br>
+  
+    <!-- Difficulty Selector -->
+    <label for="difficulty">Difficulty:</label>
+    <select id="difficulty" size="">
+        <option hidden>Select a difficulty level</option>
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select><br>
+  
+    <button id="new-game">Display New Game</button><br>
+  
+    <div id="grid"></div>
+  
+    <h2>Find These Words:</h2>
+    <ul id="word-list"></ul>
+    <div id="win-modal" class="modal">
+        <div class="modal-content">
+          <h2>🎉 Congratulations! 🎉</h2>
+          <p>You found all the words!</p>
+          <button id="play-again">New Game</button>
+        </div>
+      </div>
+      </div>
+    <script src="../javascript/wordsearch.js"></script>
+</body>
+</html>
