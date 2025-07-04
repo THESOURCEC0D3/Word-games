@@ -27,7 +27,7 @@ body {
 
 .game-options {
   border: 1px solid;
-  width: 50%;
+  width: 70%;
   margin: auto;
   border-radius: 10px;
   background-color: purple;
@@ -44,3 +44,7 @@ a {
   border-radius: 10px;
   padding: 5px;
 }
+
+/* @media (max-width:768px){
+
+} */
