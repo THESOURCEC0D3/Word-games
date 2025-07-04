@@ -45,6 +45,25 @@ a {
   padding: 5px;
 }
 
-/* @media (max-width:768px){
+@media (max-width:768px){
+  .container {
+    border: 0.5px solid;
+    border-radius: 10px;
+    width: 80%;
+    margin: 200px auto;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 
-} */
+  .game-options {
+    border: 1px solid;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: purple;
+    padding: 0.5rem;
+    line-height: 3;
+  }
+}
